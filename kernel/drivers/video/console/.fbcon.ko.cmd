@@ -1,0 +1,1 @@
+cmd_drivers/video/console/fbcon.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/srathore/Desktop/RK3188/kernel/scripts/module-common.lds --build-id  -o drivers/video/console/fbcon.ko drivers/video/console/fbcon.o drivers/video/console/fbcon.mod.o

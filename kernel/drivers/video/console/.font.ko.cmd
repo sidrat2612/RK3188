@@ -1,0 +1,1 @@
+cmd_drivers/video/console/font.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/srathore/Desktop/RK3188/kernel/scripts/module-common.lds --build-id  -o drivers/video/console/font.ko drivers/video/console/font.o drivers/video/console/font.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/console/softcursor.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/srathore/Desktop/RK3188/kernel/scripts/module-common.lds --build-id  -o drivers/video/console/softcursor.ko drivers/video/console/softcursor.o drivers/video/console/softcursor.mod.o

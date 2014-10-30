@@ -1,0 +1,1 @@
+cmd_arch/arm/plat-rk/vpu_service.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/srathore/Desktop/RK3188/kernel/scripts/module-common.lds --build-id  -o arch/arm/plat-rk/vpu_service.ko arch/arm/plat-rk/vpu_service.o arch/arm/plat-rk/vpu_service.mod.o

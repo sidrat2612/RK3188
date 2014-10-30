@@ -1,0 +1,1 @@
+cmd_drivers/video/console/bitblit.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/srathore/Desktop/RK3188/kernel/scripts/module-common.lds --build-id  -o drivers/video/console/bitblit.ko drivers/video/console/bitblit.o drivers/video/console/bitblit.mod.o
